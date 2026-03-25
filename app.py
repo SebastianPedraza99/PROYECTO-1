@@ -5,7 +5,7 @@ import numpy as np
 from sklearn.preprocessing import scale
 import LinearRegression
 
-app =Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
