@@ -1,7 +1,7 @@
-from flask import Flask, render_template, request
+from Flask import Flask, render_template, request
 import LinearRegression
 
-app =Flask(__name__)
+app = Flask(__name__)
 
 @app.route('/')
 def home():
